@@ -8,6 +8,7 @@ body {
 h1 {
   text-align: left;
   font-display: inline-block;
+  margin: 1px;
 }
 
 #fondo {
