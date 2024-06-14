@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body { font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1.2em;
+    color: #ff69b4; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {text-align: center;
+   
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff69b4;
+    margin: 5px 0;
+    position: relative;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 
+                 0 0 10px rgba(255, 255, 255, 0.7),
+                 0 0 15px rgba(255, 255, 255, 0.7),
+                 0 0 20px rgba(255, 255, 255, 0.7);
+    animation: glow 1.5s infinite alternate;
+}
+
+
+#fondo {
+    display: block;
+    background-image: url(../assets/mifondo.jfif);
+    width: 80%;
+    height: 300px;
+;
+    background-repeat: no-repeat;
+}
+
+
+.flex-center {    color: darksalmon;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+
+.img {
+    width: 100px;
+    margin-right: 50px;
+}
+
+
+.parrafo { 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+h2 {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f2f2f2; 
+    margin-bottom: 20px;
+}
+
+
+nav{
+    margin-right: 0px;
+    margin-top: -8px;
+   
+}
+
+
+a {
+  border: 2px solid rgba(128, 0, 90, 0.74);
+  transition: all 0.3s ease;
+  background-color: rgba(128, 0, 90, 0.74);
+  color: rgb(255, 0, 191);
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+a:hover{ 
+    background-color: rgb(255, 255, 255);
+    cursor:default;
+}
+
+a:active{
+    background-color: rgb(255, 255, 255);
+}
+
+a[href="#"]{
+background-color: rgb(255, 255, 255);
+}
