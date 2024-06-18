@@ -1,0 +1,57 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px 100px;
+            padding: 0;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .additional-info {
+            font-weight: bold;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        h3{font-weight: normal;
+           }
+        h4{
+            font-weight: normal;
+         text-decoration: underline;
+        margin: 5px;}
+        .cuestion{ flex
+          
+        }
+        .email{color: blue;
+            background-color: transparent;
+            text-decoration: none;
+            border: none;
+          background: none;
+          transition: none;
+           
+        }
+        .flex-center {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 0;
+            flex-wrap: nowrap;
+        }
+        footer{
+            text-align: center;
+        }
+        h1{text-align: center;}
+            
+          
+       

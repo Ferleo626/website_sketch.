@@ -1,0 +1,50 @@
+h1 { text-align: center;
+    padding: 0px;}
+h2 { border: none;
+    text-align: left;
+    padding: 10px;
+  }
+  h4 {text-align: center;
+font-weight: normal;}
+  h3{
+    padding: 10px;
+  }
+nav{margin-top: 0px;}
+body {
+    margin: 20px 100px;
+    background-color: rgba(240, 128, 128, 0.158);
+    
+  }
+  .letra {
+    list-style: lower-alpha;
+  }
+  ul li {
+    list-style: circle;
+  }
+  
+  dd, ol li, dt{
+    padding: 10px;
+  }
+  section{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+  
+  }
+  dt{ font-weight: bold;
+    
+    border-radius: 10px;}
+    
+  article, ul li{
+    list-style-position: inside;
+  }
+  .letra {
+    list-style: lower-alpha;
+  }
+  ul li {
+    list-style: circle;
+  }
+  
+
+
+

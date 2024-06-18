@@ -1,9 +1,13 @@
-* {
+* { background-color: rgb(243, 228, 208);
   margin: 0;
   padding: 0;
 }
 body {
   font-family: Arial, sans-serif;
+
+    margin: 20px 100px;
+    background-color: rgba(240, 128, 128, 0.158);
+    
 }
 h1 {
   text-align: left;
@@ -16,14 +20,14 @@ h1 {
 
   background-image: url(../assets/jockey1..jpg);
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   
 }
 .flex-center {background-position-y: top;
   display: flex;
-  align-items: ;
+  align-items: 
   display: flex;
   margin-bottom: 0;
   just
@@ -32,14 +36,14 @@ h1 {
 
 .img {
   width: 100px;
-  
+  height: 100px;
   margin-right: 50px;
   
 }
 
-.parrafo { 
+article {
   display: inline-block;
-  vertical-align: middle;
+  ;
 }
 
 h2 {
@@ -51,31 +55,32 @@ h2 {
 }
 
 
-nav{text-align: end;
+nav{text-align: end;  
     margin-right: 0px;
     margin-top: -8px;
    
 }
 
 
-a {
+nav a {
   border: 2px solid rgba(9, 0, 128, 0.74);
   background-color: rgba(9, 0, 128, 0.74);
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 10px 15px;
-  margin-right: 10px;
+  padding: 5px 7px;
+  margin-right: 5px;
   transition: background-color 0.3s ease;
+  border-radius: 17px;
 
 }
 
-a:hover{ 
+nav a:hover{ 
     background-color: green;
     cursor:default;
 }
 
-a:active{
+nav a:active{
     background-color: green;
 }
 
@@ -83,5 +88,8 @@ a[href="#"]{
 background-color: green;
 }
 footer {
-  margin-block: 80px;
+  margin-top: 20px;
 }
+
+footer a{
+  text-decoration: none;}
